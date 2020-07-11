@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Project for stroing postman tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run test test/jsonplaceholder.postman_collection.json"
+  },
+  "author": "Jakub S",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^5.1.1"
+  }
+}
